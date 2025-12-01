@@ -1,2 +1,2 @@
 # project2-registration-form
-reg form with php
+drafted sample of a student registration form 
