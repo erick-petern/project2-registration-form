@@ -1,0 +1,64 @@
+body {font-family: 'Arial', monospace;  
+      background-color: #ffffff;            /* clean white background */
+      margin: 0; 
+      padding: 0; 
+      text-align:center ;
+
+      /*assists the flex box*/
+      min-height: 100vh; /* full height */
+      display: flex;
+      flex-direction: column;
+    }
+
+h2 {text-align: center; 
+    font-size:+4;}
+
+ 
+
+.min2 {
+    display: flex; /* horizontal alignment */
+    gap: 30px;     /* space between each card */
+    justify-content: center; /* center the cards horizontally */
+    margin: 50px 0; /* vertical spacing */
+}
+
+.card {
+    border: 2px solid #333; /* frame */
+    padding: 40px 60px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 8px 20px rgba(0,0,0,0.2);
+}
+.container1
+{
+
+background:(180deg, #171e29, #19181b);
+}
+
+
+/*other flexbox related codes*/
+main {
+    flex: 1; /* pushes footer down */
+      }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+}
+.center-image {
+    width: 650px;         /* adjust size */
+    height: auto;
+    border-radius: 10px;  /* optional */
+    display: block;
+    margin: 20px auto;    /* centers the image */
+}
